@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.course-goals {
+  background-color: rgb(230, 146, 245);
+
+  padding: 10px 5px;
+  width: 80%;
+  /* height: 100vh; */
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.newGoal input{
+padding:15px 120px;
+border-radius: 10px;
+border: none;
+}
+button{
+  padding:12px 50px;
+  margin-left: 25px;
+  background-color: rgb(80, 16, 87);
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+}
